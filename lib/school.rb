@@ -10,8 +10,7 @@ class School
     if @roster.has_key?(grade)
       @roster[grade] << name
     else
-      @roster <<
-    @roster.push(name, grade)
+      @roster << (name, grade)
   end
   
   def grade
