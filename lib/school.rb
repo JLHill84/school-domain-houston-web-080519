@@ -11,6 +11,7 @@ class School
       @roster[grade] << name
     else
       @roster << (name, grade)
+    end
   end
   
   def grade
