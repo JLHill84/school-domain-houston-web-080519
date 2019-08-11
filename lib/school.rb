@@ -10,4 +10,12 @@ class School
     @roster.push(name, grade)
   end
   
+  def grade
+    
+  end
+  
+  def sort
+    
+  end
+  
 end
